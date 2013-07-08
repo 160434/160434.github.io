@@ -1,0 +1,126 @@
+
+* {
+margin: 0px;
+font-family: Helvetica;
+line-height: 1.5em;
+}
+body {
+background:#fafbfc url("http://learn.shayhowe.com/assets/layout/texture-1faab2d73b06cdf502ba6b8cda7b9ea0.jpg") 0 0 repeat;
+}
+.paragraphs {
+font-size: 13px;
+}
+h3 {
+color: #404853;
+}
+.menu {
+width: 230px;
+height: 1000px;
+background: #404853;
+color: #778572;
+float: left;
+}
+.title {
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+.smalltitle {
+font-size: 16px;
+}
+.title {
+padding-top: 25px;
+text-align: center;
+}
+.mainbody {
+background: #F7F8FA;
+width: 55%;
+margin: 0;
+text-align: left;
+height: 1000px;
+padding: 20px;
+float: left;
+}
+.headings {
+color: #404853;
+}
+.smallheading {
+color: #8C9198;
+}
+.leftlinks {
+font-size: 13px;
+padding: 20px;
+color: white;
+}
+.leftlinks span {
+color: #779184;
+}
+.menu a {
+text-decoration: none;
+color: white;
+}
+.menu a:hover {
+color: #8EC63F;
+}
+.menu a div{
+color: #8C9198;
+}
+.menu a:hover div .leftbartitle{
+color: #8EC63F;
+}
+.leftlinks p {
+font-style: italic;
+color: #779184;
+}
+.lessons {
+color: lightgra
+}
+.figuretext {
+font-size: 11px;
+}
+img {
+border: 5px solid white;
+}
+.contents {
+background: white;
+border-top: 2px solid grey;
+border-bottom: 1px solid lightgrey;
+float: right;
+position: relative;
+width: 180px;
+margin: -1px 0 19px 20px;
+padding: 20px;
+}
+.contents a {
+color: green;
+text-decoration: none;
+list-style-type: square;
+}
+.contents a:hover {
+color: orange;
+}
+.contents ul {
+color: green;
+}
+.contents li {
+font-size: 13px;
+}
+.twitter {
+display: inline;
+}
+button {
+border-radius: 5px;
+}
+.twitterbutton a {
+color: black;
+}
+.twitterbutton a:hover {
+color: black;
+}
+.twitters {
+vertical-align: middle;
+margin: 0;
+padding: 0;
+border: 0;
+
+}
