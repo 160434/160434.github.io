@@ -1,21 +1,17 @@
 
 body{
     background-color: #A9A9A9;
-    
+    background-image:url('http://coolvibe.com/wp-content/uploads/2010/05/fullmetalalchemist.jpg');
+    }
+html{
+    text-align: center;
+    max-width: 750px;
+    margin-left:auto;
+    margin-right:auto;
+
 }
-.facebook{
-    background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yA/r/csCfJBX3kRh.png);
-    background-repeat: no-repeat;
-    background-position: 0 -151px;
-    height: 31px;
-    outline: none;
-    overflow: hidden;
-    text-indent: -999px;
-    white-space: nowrap;
-    width: 103px;
-    background-color: rgb(59, 89, 152);
-    border-radius: 5px;
-    float: left;
+div{
+    box-shadow: 10px 10px 5px darkgray
 }
 .gmail{
     color: #dd4b39;
@@ -28,15 +24,14 @@ body{
     background-color: white;
     border-radius: 5px;
     width: 60px;
-    padding: 0 8px
+    padding: 0 8px;
     }
 }
-.box {
-    width: 100%;
+#holder {
+    max-width: 750;
     height: 275px;
-    margin: 5px;
-    border-radius: 5px;
-    padding: 5px
+
+
 }
 .words {
     font-family: sans-serif;
@@ -55,9 +50,12 @@ body{
     top: 0;
     left: 0;
     border-radius: 10px;
+    box-shadow: none;
 }
 .first{
     background-color: #e8846b;
+    margin: 5px;
+    border-radius: 5px;
     z-index: 10;
     margin-top: 92px;
     z-index: 10;        
@@ -65,34 +63,52 @@ body{
 }
 .second{
     background-color: #16528e;
+    margin: 5px;
+    border-radius: 5px;
 }
 .third{
-    background-color: #e54b4b; 
+    background-color: #e54b4b;
+    margin: 5px;
+    border-radius: 5px; 
     font-size: 1.85em;
 }
 .fourth{
-    background-color: #a2c5bf;  
+    background-color: #a2c5bf;
+    margin: 5px;
+    border-radius: 5px;  
 }
 .fifth{
-    background-color: #167c80; 
+    background-color: #167c80;
+    margin: 5px;
+    border-radius: 5px; 
     font-size: 1.9em
 }
 .sixth{
     background-color: #0082c8;
+    margin: 5px;
+    border-radius: 5px;
             }
 .seventh{
     background-color: #72616e;
+    margin: 5px;
+    border-radius: 5px;
     font-size: 21px;
 }
 .ninth{
     background-color: #e8846b;
+    margin: 5px;
+    border-radius: 5px;
             }
 .tenth{
     background-color: #16528e;
+    margin: 5px;
+    border-radius: 5px;
     font-size: 2.5em; 
 }
 .eleventh{
     background-color: #e54b4b;
+    margin: 5px;
+    border-radius: 5px;
             }
 }
 .nothing {
@@ -120,4 +136,17 @@ body{
 .purple {
     text-decoration: none;
     color: purple;
+}
+.top {
+    color: darkgray;
+    cursor: pointer;
+    font-size: 14pt;
+    line-height: 32px;
+    float: right;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 60px;
+    padding: 0 8px;
 }
