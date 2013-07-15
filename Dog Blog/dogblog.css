@@ -1,0 +1,27 @@
+/*General*/
+*{
+	padding: 0;
+	margin: 0;
+	background-color: purple;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: w
+}
+
+/*Nav Bar*/
+
+ul {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+.navbar li {
+	display: inline;
+	padding-left: 40px;	
+}
+.navbar {
+	text-align: center;
+}
