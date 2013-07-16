@@ -5,25 +5,38 @@
 	background-color: rgb(116,69,149);
 	color: white;
 }
+
 a{
 	text-decoration: none;
 }
 
+body{
+    height: 30px;
+    width: auto;
+}
+
 /*Nav Bar*/
 
-ul {
-	display: inline;
-	list-style-type: none;
-	padding: 0;
+nav li{
+    height: 30px;
+    margin: 0 5%;
+    display: inline;
+    text-align: center;
+    padding: 0 10px;
+
 }
 
-.navbar li {
-	display: inline;
-	padding-left: 40px;	
+nav ul{
+    text-align: center;
+    border-bottom: solid 2px black;
+    position: fixed;
+    width: 100%
 }
-.navbar {
-	text-align: center;
-}
-.nav_line {
-	background-color: black;
+
+/*Heading*/
+
+.dogblogtitle{
+    padding-top: 30px;
+    text-align: center;
+    
 }
