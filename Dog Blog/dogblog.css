@@ -2,12 +2,11 @@
 *{
 	padding: 0;
 	margin: 0;
-	background-color: purple;
+	background-color: rgb(116,69,149);
 	color: white;
 }
 a{
 	text-decoration: none;
-	color: w
 }
 
 /*Nav Bar*/
@@ -24,4 +23,7 @@ ul {
 }
 .navbar {
 	text-align: center;
+}
+.nav_line {
+	background-color: black;
 }
