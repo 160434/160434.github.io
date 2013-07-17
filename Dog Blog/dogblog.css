@@ -129,4 +129,16 @@
         font-size:25px;
     }
 
+    img.doggy_pic{
+        width: 380px;
+        margin-left: 10px
+    }
+
+    p.likepet{
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(116,69,149);
+        font-size: 20px;
+        
+    }
 
