@@ -2,12 +2,17 @@
     *{
     	padding: 0;
     	margin: 0;
-    	background-color: rgb(116,69,149);
-    	color: white;
+    	
+    }
+
+    body{
+        background-color: rgb(116,69,149);
+        color: white;
     }
 
     a{
     	text-decoration: none;
+
     }
 
     body{
@@ -23,13 +28,20 @@
         display: inline;
         text-align: center;
         padding: 0 10px;
+
     }
 
     nav ul{
         text-align: center;
         border-bottom: solid 2px black;
         position: fixed;
-        width: 100%
+        width: 100%;
+        background-color: rgb(116,69,149);
+
+    }
+
+    nav li a{
+        color: white;
     }
 
 /*Heading*/
@@ -43,15 +55,31 @@
         background-image: url(luna.jpg);
         background-size: 400px 300px;
         background-repeat: no-repeat;
-
     }
-
 
     .img_comment{
         text-align: center;
         font-size: 18px;
         font-weight: normal;
-        border-top: 0
+        border-top: 0;
+    }
+
+/*About Us*/
+
+    .about_title{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .about_text{
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border: solid 2px grey;
+        background-image: url(rockywall_@2X.png);
+        color: rgb(116,69,149);
+        font-size: 18px;
     }
 
 /*Latest Blog*/
@@ -61,3 +89,34 @@
         margin-top: 20px;
         font-size: 25px
     }
+
+    .latestblog_text{
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border: solid 2px grey;
+        background-image: url(rockywall_@2X.png);
+        color: rgb(116,69,149);
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .blogbutton {
+        margin-top: 40px;
+        height: 15px;
+        width: 95px;
+        color: blue;
+        margin-right: auto;
+        margin-left: auto;
+        border: solid 4px black;
+        border-radius: 8px;
+        padding-bottom: 5px;
+        box-shadow: 5px 5px 2.5px black
+    }
+
+    .blogbutton a:active{
+        -webkit-transform:translate(12px, 10px);
+        color: white;
+    }
+
+
