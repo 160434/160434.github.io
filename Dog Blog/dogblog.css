@@ -86,8 +86,9 @@
     
     .latestblog{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 50px;
         font-size: 25px
+
     }
 
     .latestblog_text{
@@ -99,10 +100,11 @@
         color: rgb(116,69,149);
         font-size: 18px;
         font-weight: normal;
+
     }
 
     .blogbutton {
-        margin-top: 40px;
+        margin-top: 20px;
         height: 15px;
         width: 95px;
         color: blue;
@@ -117,6 +119,14 @@
     .blogbutton a:active{
         -webkit-transform:translate(12px, 10px);
         color: white;
+    }
+
+    /*New Pictures*/
+
+    .new_pictures{
+        text-align: center;
+        padding-top: 50px;
+        font-size:25px;
     }
 
 
