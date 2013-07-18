@@ -177,6 +177,10 @@
         display: none;
     }
 
+    .lunavest{
+        display: none;
+    }
+
 /*Window bigger than 400px*/
     
     @media screen and (min-width: 410px){
@@ -229,7 +233,7 @@
 
     /*Window Bigger than 1200px*/
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1000px){
 
         .blogtext{
             max-width: 300px;
@@ -245,6 +249,16 @@
             display: inline-block;
             margin-top: 10px;
             vertical-align: 50%;
+        }
+
+        .lunavest{
+            width: 380px;
+            height: 509px;
+            padding-left: 0;
+            margin-top: 40px;
+            border-left: 0;
+            margin-left: 0;
+            display: inline-block;
         }
 
     }
