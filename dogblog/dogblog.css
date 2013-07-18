@@ -8,6 +8,7 @@
     body{
         background-color: rgb(116,69,149);
         color: white;
+        background-image: url(paw-print-seamless-pattern02.png);
     }
 
     a{
@@ -36,7 +37,7 @@
         border-bottom: solid 2px black;
         position: fixed;
         width: 100%;
-        background-color: rgb(116,69,149);
+        background-color: rgb(69,30,59);
 
     }
 
@@ -79,7 +80,7 @@
         margin: 0 auto;
         border: solid 2px grey;
         background-image: url(rockywall_@2X.png);
-        color: rgb(116,69,149);
+        color: rgb(69,30,59);
         font-size: 18px;
     }
 
@@ -92,7 +93,7 @@
 
     }
 
-    .latestblog_text{
+    .latestblog_text1{
         max-width: 300px;
         text-align: center;
         margin: 0 auto;
@@ -103,6 +104,10 @@
         font-weight: normal;
         border-left: 5px;
 
+    }
+    
+    div.latestblog_text2{
+        display: none;
     }
 
     .blogbutton {
@@ -140,7 +145,7 @@
     p.likepet{
         text-align: center;
         margin: 0 auto;
-        background-color: rgb(116,69,149);
+        background-color: rgb(69,30,59);;
         font-size: 20px;
     }
 
@@ -155,15 +160,19 @@
     p.sisters{
         text-align: center;
         margin: 0 auto;
-        background-color: rgb(116,69,149);
+        background-color: rgb(69,30,59);
         font-size: 20px;
     }
 
 /*Window bigger than 400px*/
     
-    @media all and (min-width:400px)
-    {
+    @media all and (min-width: 400px){
+        
         body{
             text-align: center;
+        }
+
+        .latestblog_text2{
+            display: inline;
         }
     }
