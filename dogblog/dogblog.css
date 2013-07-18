@@ -74,6 +74,7 @@
         text-align: center;
         padding-top: 20px;
         font-size: 25px;
+
     }
 
     .about_text{
@@ -84,6 +85,7 @@
         background-image: url(rockywall_@2X.png);
         color: rgb(69,30,59);
         font-size: 18px;
+        padding: 10px
     }
 
 /*Latest Blog*/
@@ -105,11 +107,14 @@
         font-size: 18px;
         font-weight: normal;
         border-left: 5px;
+        padding: 10px;
+        margin-right: 10px;
 
     }
 
     .latestblog_text2{
         display: none;
+        padding: 10px;
     }
     
     .blogbutton {
@@ -145,7 +150,7 @@
     }
 
     img.doggy_pic{
-        width: 380px;
+        width: 360px;
     }
 
     p.likepet{
@@ -156,8 +161,8 @@
     }
 
     img.sisters{
-        width: 380px;
-        height: 509px;
+        width: 360px;
+        height: auto;
         padding-left: 0;
         margin-top: 40px;
         border-left: 0;
@@ -170,8 +175,6 @@
         background-color: rgb(69,30,59);
         font-size: 20px;
     }
-
-    .
 
     .blogtext{
         display: none;
@@ -198,11 +201,15 @@
         text-align: left;
         display: inline-block;
         margin-top: 10px;
-        padding-top: 20px;
+        padding: 10px;
+        padding-top: 31px;
+        margin-left: 10px;
+        margin-right: 10px;
         }
 
         .latestblog_text1{
             display: inline-block;
+            padding-right: 10px; 
         }
         
         .dogblogtitle{
@@ -233,7 +240,7 @@
 
     /*Window Bigger than 1200px*/
 
-    @media screen and (min-width: 1000px){
+    @media screen and (min-width: 1100px){
 
         .blogtext{
             max-width: 300px;
@@ -248,12 +255,28 @@
             text-align: left;
             display: inline-block;
             margin-top: 10px;
-            vertical-align: 50%;
+            padding: 10px 30px;
+
+            vertical-align: top;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .latestblog_text1{
+            display: inline-block;
+            padding-right: 30px; 
+            padding-left: 30px
+        }
+
+        .latestblog_text2{
+            padding-left: 30px;
+            padding-right: 30px;
+            display: inline-block;
         }
 
         .lunavest{
-            width: 380px;
-            height: 509px;
+            width: 360px;
+            height: auto;
             padding-left: 0;
             margin-top: 40px;
             border-left: 0;
