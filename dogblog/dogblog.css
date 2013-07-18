@@ -55,6 +55,7 @@
         background-image: url(luna.jpg);
         background-size: 400px 300px;
         background-repeat: no-repeat;
+        background-position: center;
     }
 
     .img_comment{
@@ -100,6 +101,7 @@
         color: rgb(116,69,149);
         font-size: 18px;
         font-weight: normal;
+        border-left: 5px;
 
     }
 
@@ -107,21 +109,23 @@
         margin-top: 20px;
         height: 15px;
         width: 95px;
-        color: blue;
         margin-right: auto;
         margin-left: auto;
         border: solid 4px black;
         border-radius: 8px;
         padding-bottom: 5px;
-        box-shadow: 5px 5px 2.5px black
+        box-shadow: 5px 5px 2.5px black;
+        text-decoration: none;
+        color: inherit;
+        background-color: rgb(193,75,72);
+
     }
 
     .blogbutton a:active{
-        -webkit-transform:translate(12px, 10px);
         color: white;
     }
 
-    /*New Pictures*/
+/*New Pictures*/
 
     .new_pictures{
         text-align: center;
@@ -131,7 +135,6 @@
 
     img.doggy_pic{
         width: 380px;
-        margin-left: 10px
     }
 
     p.likepet{
@@ -139,6 +142,28 @@
         margin: 0 auto;
         background-color: rgb(116,69,149);
         font-size: 20px;
-        
     }
 
+    img.sisters{
+        width: 380px;
+        padding-left: 0;
+        margin-top: 40px;
+        border-left: 0;
+        margin-left: 0;
+    }
+
+    p.sisters{
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(116,69,149);
+        font-size: 20px;
+    }
+
+/*Window bigger than 400px*/
+    
+    @media all and (min-width:400px)
+    {
+        body{
+            text-align: center;
+        }
+    }
