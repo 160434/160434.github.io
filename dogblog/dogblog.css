@@ -9,6 +9,7 @@
         background-color: rgb(116,69,149);
         color: white;
         background-image: url(paw-print-seamless-pattern02.png);
+        text-align: center;
     }
 
     a{
@@ -44,6 +45,7 @@
     nav li a{
         color: white;
     }
+
 
 /*Heading*/
 
@@ -105,11 +107,11 @@
         border-left: 5px;
 
     }
-    
-    div.latestblog_text2{
+
+    .latestblog_text2{
         display: none;
     }
-
+    
     .blogbutton {
         margin-top: 20px;
         height: 15px;
@@ -126,7 +128,7 @@
 
     }
 
-    .blogbutton a:active{
+    .blogbutton a:hover{
         color: white;
     }
 
@@ -151,6 +153,7 @@
 
     img.sisters{
         width: 380px;
+        height: 509px;
         padding-left: 0;
         margin-top: 40px;
         border-left: 0;
@@ -164,15 +167,79 @@
         font-size: 20px;
     }
 
+    .blogtext{
+        display: none;
+    }
+
 /*Window bigger than 400px*/
     
-    @media all and (min-width: 400px){
-        
-        body{
-            text-align: center;
+    @media screen and (min-width: 410px){
+    
+        .latestblog_text2{
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border: solid 2px grey;
+        background-image: url(rockywall_@2X.png);
+        color: rgb(116,69,149);
+        font-size: 18px;
+        font-weight: normal;
+        border-left: 5px;
+        text-align: left;
+        display: inline-block;
+        margin-top: 10px;
+        padding-top: 20px;
         }
 
-        .latestblog_text2{
-            display: inline;
+        .latestblog_text1{
+            display: inline-block;
+        }
+        
+        .dogblogtitle{
+        background-size: 600px 450px;
+        
         }
     }
+
+    /*Window Bigger than 800px*/
+
+    @media screen and (min-width: 800px){
+
+        img.doggy_pic{
+            display: inline-block;
+        }
+        img.sisters{
+            display: inline-block;
+            vertical-align: center;
+        }
+        .likepet,.sisters{
+            display: none;
+        }
+
+        .great_dogs{
+            font-size: 20px;
+        }
+    }
+
+    /*Window Bigger than 1200px*/
+
+    @media screen and (min-width: 1200px){
+
+        .blogtext{
+            max-width: 300px;
+            text-align: center;
+            margin: 0 auto;
+            border: solid 2px grey;
+            background-image: url(rockywall_@2X.png);
+            color: rgb(116,69,149);
+            font-size: 18px;
+            font-weight: normal;
+            border-left: 5px;
+            text-align: left;
+            display: inline-block;
+            margin-top: 10px;
+            vertical-align: 50%;
+        }
+
+    }
+
