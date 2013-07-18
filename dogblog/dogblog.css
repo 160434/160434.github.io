@@ -132,6 +132,10 @@
         color: white;
     }
 
+    .blogtext{
+        display: none;
+    }
+
 /*New Pictures*/
 
     .new_pictures{
@@ -166,6 +170,8 @@
         background-color: rgb(69,30,59);
         font-size: 20px;
     }
+
+    .
 
     .blogtext{
         display: none;
