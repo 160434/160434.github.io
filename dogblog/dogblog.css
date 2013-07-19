@@ -108,7 +108,6 @@
         font-weight: normal;
         border-left: 5px;
         padding: 10px;
-        margin-right: 10px;
 
     }
 
@@ -227,7 +226,6 @@
         }
         img.sisters{
             display: inline-block;
-            vertical-align: center;
         }
         .likepet,.sisters{
             display: none;

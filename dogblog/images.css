@@ -5,7 +5,7 @@ body{
 }
 
 .image_text{
-	text-align: left;
+	text-align: right;
 	display: inline-block;
 	width: 380px;
 	margin: 0;
@@ -15,11 +15,14 @@ body{
     background-image: url(rockywall_@2X.png);
     color: rgb(116,69,149);
     font-size: 18px;
-    font-weight: normal;   
+    font-weight: normal; 
+   	padding: 40px 27.5px;
+
 }
 
 .lunalily{
 	display: inline-block;
+	margin-left: 0;
 }
 
 .title{
@@ -30,3 +33,10 @@ body{
     font-size: 2.5em;
     color: white;
     }
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Crafty Girls', cursive;
+}

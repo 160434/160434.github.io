@@ -1,0 +1,27 @@
+body{
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	background-image: url(paw-print-seamless-pattern02.png)
+}
+
+p{
+    border: solid 2px grey;
+    background-image: url(rockywall_@2X.png);
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(116,69,149);
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0 
+}
+
+.home_link{
+	color: white;
+	text-decoration: none;
+	display: inherit;
+	font-size: 20px;
+	font-family: 'Crafty Girls', cursive;
+	margin-top: 20px;
+}
